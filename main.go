@@ -1,7 +1,6 @@
 package main
 
 import (
-	s "ginDemo/svr"
 	"github.com/gin-gonic/gin"
 )
 
@@ -12,11 +11,12 @@ func main() {
 		ctx.HTML(200, "form.html", nil)
 	})
 
-	s.HelloWord()
-	s.GetRouteParams()
-	s.GetFormParams()
-	s.GetJsonParams()
-	s.ShouldBindTest()
+	//s.HelloWord()
+	//s.GetRouteParams()
+	//s.GetFormParams()
+	//s.GetJsonParams()
+	//s.ShouldBindTest()
+	//s.Middleware()
 
 	r.Run()
 }
